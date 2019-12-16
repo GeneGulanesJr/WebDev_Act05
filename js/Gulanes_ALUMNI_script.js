@@ -99,7 +99,7 @@ iisApp.controller('login', function ($scope, $http) {
 							})
 							.finally(function(){
 
-								window.location.href = 'dashboard.html';
+								window.location.href = 'Gulanes_ALUMNI_dashboard.html';
 							});
 				}
 			}]);
