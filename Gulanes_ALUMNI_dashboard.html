@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+</head>
+<body>
+
+<h2>UIC Forums</h2>
+
+<header>
+    <h2>How to JavaScript</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <div class="container">
+            <img src="/images/person.jpg" alt="Avatar">
+            <p>Hello. How are you today?</p>
+            <span class="time-right">11:00</span>
+        </div>
+
+        <div class="container darker">
+            <img src="/images/person2.jpg" alt="Avatar" class="right">
+            <p>Hey! I'm fine. Thanks for asking!</p>
+            <span class="time-left">11:01</span>
+        </div>
+
+        <div class="container">
+            <img src="/images/person.jpg" alt="Avatar">
+            <p>Sweet! So, what do you wanna do today?</p>
+            <span class="time-right">11:02</span>
+        </div>
+
+        <div class="container darker">
+            <img src="/images/person2.jpg" alt="Avatar" class="right">
+            <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+            <span class="time-left">11:05</span>
+        </div>
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1>
+
+                <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </article>
+</section>
+
+
+
+</body>
+</html>
